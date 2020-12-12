@@ -1,0 +1,17 @@
+<suite name="Testng Examen Final">
+
+    <test name="Ejecución de examen">
+        <groups name = "All the tests" >
+            <run >
+                <Include name = "SuccessTest"/>
+                <Include name = "Failure Test"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tests.ExamenFinal.prueba_netflix"></class>
+
+        </classes>
+
+    </test>
+</suite>
